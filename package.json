@@ -1,0 +1,15 @@
+{
+  "name": "nanogallery2-vite-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "hugo-extended server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hugo-extended": "^0.137.0"
+  }
+}
