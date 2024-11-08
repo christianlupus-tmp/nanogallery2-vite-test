@@ -1,5 +1,10 @@
 {{ define "main" }}
   {{ .Content }}
+
+  <p>Here should come the gallery:</p>
+  <div id="ng2"></div>
+  <p>End of gallery</p>
+
   {{ range site.RegularPages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ .Summary }}

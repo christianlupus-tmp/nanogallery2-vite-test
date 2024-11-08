@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "vite build",
     "server": "hugo-extended server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "vite-server": "vite"
   },
   "author": "",
   "license": "ISC",
+  "type" : "module",
   "devDependencies": {
-    "hugo-extended": "^0.137.0"
+    "hugo-extended": "^0.137.0",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "nanogallery2": "^3.0.5"
   }
 }
